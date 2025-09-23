@@ -1,7 +1,16 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|c:\\study\\finalproject\\employeemanagementsystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|c:\\study\\finalproject\\employeemanagementsystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -9,11 +18,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": -1,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T05:59:28.003Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T05:57:37.605Z",
+              "EditorCaption": ""
             }
           ]
         }
