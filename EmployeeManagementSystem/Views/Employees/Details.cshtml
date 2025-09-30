@@ -1,0 +1,21 @@
+﻿@model EmployeeManagementSystem.Models.Employee
+
+@{
+    ViewData["Title"] = "Employee Details";
+}
+
+<h2>Деталі працівника</h2>
+
+<div>
+    <p><strong>Ім’я:</strong> @Model.FirstName</p>
+    <p><strong>Прізвище:</strong> @Model.LastName</p>
+    <p><strong>Дата народження:</strong> @Model.BirthDate.ToShortDateString()</p>
+    <p><strong>Зарплата:</strong> @Model.Salary</p>
+    <p><strong>Початок контракту:</strong> @Model.ContractStart.ToShortDateString()</p>
+    <p><strong>Кінець контракту:</strong> @Model.ContractEnd.ToShortDateString()</p>
+    <p><strong>Відділ:</strong> @Model.Department?.Name</p>
+    <p><strong>Посада:</strong> @Model.Position?.Name</p>
+</div>
+
+<a asp-action="Edit" asp-route-id="@Model.Id">Редагувати</a> |
+<a asp-action="Index">Назад</a>

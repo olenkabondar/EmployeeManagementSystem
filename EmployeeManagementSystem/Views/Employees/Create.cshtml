@@ -1,0 +1,45 @@
+﻿@model EmployeeManagementSystem.Models.Employee
+
+@{
+    ViewData["Title"] = "Create Employee";
+}
+
+<h2>Додаємо  працівника</h2>
+
+<form asp-action="Create">
+    <div>
+        <label asp-for="FirstName"></label>
+        <input asp-for="FirstName" />
+    </div>
+    <div>
+        <label asp-for="LastName"></label>
+        <input asp-for="LastName" />
+    </div>
+    <div>
+        <label asp-for="BirthDate"></label>
+        <input asp-for="BirthDate" type="date" />
+    </div>
+    <div>
+        <label asp-for="Salary"></label>
+        <input asp-for="Salary" />
+    </div>
+    <div>
+        <label asp-for="ContractStart"></label>
+        <input asp-for="ContractStart" type="date" />
+    </div>
+    <div>
+        <label asp-for="ContractEnd"></label>
+        <input asp-for="ContractEnd" type="date" />
+    </div>
+    <div>
+        <label>Department</label>
+        <select asp-for="DepartmentId" asp-items="ViewBag.Departments"></select>
+    </div>
+    <div>
+        <label>Position</label>
+        <select asp-for="PositionId" asp-items="ViewBag.Positions"></select>
+    </div>
+    <button type="submit">Save</button>
+</form>
+
+<a asp-action="Index">Back to List</a>

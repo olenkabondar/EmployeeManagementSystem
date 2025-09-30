@@ -1,0 +1,13 @@
+﻿@model EmployeeManagementSystem.Models.Department
+
+<h2>Видалення відділу</h2>
+
+<div>
+    <h4>Ви впевнені, що хочете видалити відділ: @Model.Name?</h4>
+</div>
+
+<form asp-action="DeleteConfirmed" method="post">
+    <input type="hidden" asp-for="Id" />
+    <button type="submit" class="btn btn-danger">Видалити</button>
+    <a asp-action="Index" class="btn btn-secondary">Скасувати</a>
+</form>

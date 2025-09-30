@@ -1,0 +1,48 @@
+﻿@model IEnumerable<EmployeeManagementSystem.Models.Employee>
+
+@{
+    ViewData["Title"] = "Employees";
+}
+
+<h2>Працівники</h2>
+
+<p>
+    <a asp-action="Create">Додати нового працівника</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Ім'я</th>
+            <th>Прізвище</th>
+            <th>Дата народження</th>
+            <th>Зарплата</th>
+            <th>Дата підписання контракту</th>
+            <th>Дата завершення контракту</th>
+            <th>Відділ</th>
+            <th>Посада</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.FirstName</td>
+                <td>@item.LastName</td>
+                <td>@item.BirthDate.ToShortDateString()</td>
+                <td>@item.Salary</td>
+                <td>@item.ContractStart.ToShortDateString()</td>
+                <td>@item.ContractEnd.ToShortDateString()</td>
+                <td>@item.Department?.Name</td>
+                <td>@item.Position?.Name</td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Редагувати</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Деталі</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Видалити</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-action="Index" asp-controller="Home" class="btn btn-secondary">Назад</a>

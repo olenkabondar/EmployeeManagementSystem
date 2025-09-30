@@ -1,0 +1,47 @@
+﻿@model EmployeeManagementSystem.Models.Employee
+
+@{
+    ViewData["Title"] = "Редагування працівника";
+}
+
+<h2>Редагувати працівника</h2>
+
+<form asp-action="Edit">
+    <input type="hidden" asp-for="Id" />
+
+    <div>
+        <label asp-for="FirstName">Ім’я</label>
+        <input asp-for="FirstName" />
+    </div>
+    <div>
+        <label asp-for="LastName">Прізвище</label>
+        <input asp-for="LastName" />
+    </div>
+    <div>
+        <label asp-for="BirthDate">Дата народження</label>
+        <input asp-for="BirthDate" type="date" />
+    </div>
+    <div>
+        <label asp-for="Salary">Зарплата</label>
+        <input asp-for="Salary" />
+    </div>
+    <div>
+        <label asp-for="ContractStart">Початок контракту</label>
+        <input asp-for="ContractStart" type="date" />
+    </div>
+    <div>
+        <label asp-for="ContractEnd">Кінець контракту</label>
+        <input asp-for="ContractEnd" type="date" />
+    </div>
+    <div>
+        <label>Відділ</label>
+        <select asp-for="DepartmentId" asp-items="ViewBag.Departments"></select>
+    </div>
+    <div>
+        <label>Посада</label>
+        <select asp-for="PositionId" asp-items="ViewBag.Positions"></select>
+    </div>
+    <button type="submit">Зберегти</button>
+</form>
+
+<a asp-action="Index">Повернутися до списку</a>

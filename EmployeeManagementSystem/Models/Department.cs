@@ -8,5 +8,7 @@ namespace EmployeeManagementSystem.Models
 
         [Required]
         public string Name { get; set; } = string.Empty;
+        // Навігація
+        public ICollection<Employee>? Employees { get; set; }
     }
 }

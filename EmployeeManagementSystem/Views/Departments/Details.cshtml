@@ -1,0 +1,38 @@
+﻿@model EmployeeManagementSystem.Models.Department
+
+@{
+    ViewData["Title"] = "Деталі відділу";
+}
+
+<h2>Деталі відділу</h2>
+
+<p><strong>Назва:</strong> @Model.Name</p>
+
+<h3>Працівники</h3>
+
+@if (Model.Employees != null && Model.Employees.Any())
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Ім’я</th>
+                <th>Прізвище</th>
+                <th>Посада</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var emp in Model.Employees)
+            {
+                <tr>
+                    <td>@emp.FirstName</td>
+                    <td>@emp.LastName</td>
+                    <td>@emp.Position?.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>У цьому відділі ще немає працівників.</p>
+}
