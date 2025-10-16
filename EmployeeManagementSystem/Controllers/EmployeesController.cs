@@ -116,8 +116,14 @@ namespace EmployeeManagementSystem.Controllers
         // GET: Employees/Delete/5
         public async Task<IActionResult> Delete(int id)
         {
-            var employee = await _context.Employees.FindAsync(id);
-            if (employee == null) return NotFound();
+            // Підвантажуємо відділ і посаду
+            var employee = await _context.Employees
+                .Include(e => e.Department)
+                .Include(e => e.Position)
+                .FirstOrDefaultAsync(e => e.Id == id);
+
+            if (employee == null)
+                return NotFound();
 
             return View(employee);
         }
@@ -128,8 +134,12 @@ namespace EmployeeManagementSystem.Controllers
         public async Task<IActionResult> DeleteConfirmed(int id)
         {
             var employee = await _context.Employees.FindAsync(id);
+            if (employee == null)
+                return NotFound();
+
             _context.Employees.Remove(employee);
             await _context.SaveChangesAsync();
+
             return RedirectToAction(nameof(Index));
         }
     }

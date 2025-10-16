@@ -4,18 +4,18 @@
     ViewData["Title"] = "Delete Employee";
 }
 
-<h2>Delete Employee</h2>
+<h2>Видалити користувача</h2>
 
-<h3>Are you sure you want to delete this employee?</h3>
+<h3>Ви впевнені, що хочете видалити користувача?</h3>
 
 <div>
     <p><strong>@Model.FirstName @Model.LastName</strong></p>
-    <p>Department: @Model.Department?.Name</p>
-    <p>Position: @Model.Position?.Name</p>
+    <p>Відділ: @Model.Department?.Name</p>
+    <p>Посада: @Model.Position?.Name</p>
 </div>
 
-<form asp-action="DeleteConfirmed">
+<form asp-action="Delete">
     <input type="hidden" asp-for="Id" />
-    <button type="submit">Delete</button>
-    <a asp-action="Index">Cancel</a>
+    <button type="submit">Видалити</button>
+    <a asp-action="Index">Назад</a>
 </form>
