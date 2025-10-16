@@ -1,0 +1,33 @@
+﻿@model IEnumerable<EmployeeManagementSystem.Models.Department>
+
+@{
+    ViewData["Title"] = "Працівники по відділах";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+@foreach (var dept in Model)
+{
+    <h4>@dept.Name</h4>
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Ім’я</th>
+                <th>Прізвище</th>
+                <th>Посада</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var emp in dept.Employees)
+            {
+                <tr>
+                    <td>@emp.FirstName</td>
+                    <td>@emp.LastName</td>
+                    <td>@emp.Position?.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+<a asp-action="Index" asp-controller="Reports" class="btn btn-secondary">Назад</a> |
+<a asp-action="DownloadEmployeesInDepartment" class="btn btn-primary">Зберегти у файл</a>

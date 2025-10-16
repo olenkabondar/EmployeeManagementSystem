@@ -1,0 +1,27 @@
+﻿@model IEnumerable<dynamic>
+
+@{
+    ViewData["Title"] = "Середня зарплата по відділах";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Відділ</th>
+            <th>Середня зарплата</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.DepartmentName</td>
+                <td>@item.AvgSalary.ToString("F2")</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-action="Index" asp-controller="Reports" class="btn btn-secondary">Назад</a> |
+<a asp-action="DownloadAverageSalaryInDepartment" class="btn btn-primary">Зберегти у файл</a>

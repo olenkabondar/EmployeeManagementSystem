@@ -1,0 +1,33 @@
+﻿@model IEnumerable<EmployeeManagementSystem.Models.Employee>
+
+@{
+    ViewData["Title"] = "Контракти, що закінчуються на протязі 30 днів";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Ім’я</th>
+            <th>Прізвище</th>
+            <th>Відділ</th>
+            <th>Посада</th>
+            <th>Дата завершення контракту</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var e in Model)
+        {
+            <tr>
+                <td>@e.FirstName</td>
+                <td>@e.LastName</td>
+                <td>@e.Department?.Name</td>
+                <td>@e.Position?.Name</td>
+                <td>@e.ContractEnd.ToShortDateString()</td>
+            </tr>
+        }
+    </tbody>
+</table>
+<a asp-action="Index" asp-controller="Reports" class="btn btn-secondary">Назад</a> |
+<a asp-action="DownloadContractsEndingSoon" class="btn btn-primary">Зберегти у файл</a>

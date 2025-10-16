@@ -8,38 +8,42 @@
 
 <form asp-action="Create">
     <div>
-        <label asp-for="FirstName"></label>
+        <label>Прізвище</label>
         <input asp-for="FirstName" />
     </div>
     <div>
-        <label asp-for="LastName"></label>
+        <label>Ім'я</label>
         <input asp-for="LastName" />
     </div>
     <div>
-        <label asp-for="BirthDate"></label>
+        <label>Дата народження</label>
+        @* <label asp-for="BirthDate"></label> *@
         <input asp-for="BirthDate" type="date" />
     </div>
     <div>
-        <label asp-for="Salary"></label>
+        <label>Зарплата</label>
+        @* <label asp-for="Salary"></label> *@
         <input asp-for="Salary" />
     </div>
     <div>
-        <label asp-for="ContractStart"></label>
+        <label>Початок контракту</label>
+        @* <label asp-for="ContractStart"></label> *@
         <input asp-for="ContractStart" type="date" />
     </div>
     <div>
-        <label asp-for="ContractEnd"></label>
+        <label>Кінець контракту</label>
+        @* <label asp-for="ContractEnd"></label> *@
         <input asp-for="ContractEnd" type="date" />
     </div>
     <div>
-        <label>Department</label>
+        <label>Департамент</label>
         <select asp-for="DepartmentId" asp-items="ViewBag.Departments"></select>
     </div>
     <div>
-        <label>Position</label>
+        <label>Посада</label>
         <select asp-for="PositionId" asp-items="ViewBag.Positions"></select>
     </div>
-    <button type="submit">Save</button>
+    <button type="submit">Зберегти</button>
 </form>
 
-<a asp-action="Index">Back to List</a>
+<a asp-action="Index">Назад</a>

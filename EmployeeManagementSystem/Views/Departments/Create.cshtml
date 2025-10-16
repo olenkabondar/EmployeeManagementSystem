@@ -4,7 +4,8 @@
 
 <form asp-action="Create" method="post">
     <div class="form-group">
-        <label asp-for="Name"></label>
+        <label>Назва департаменту</label>
+        @* <label asp-for="Name"></label> *@
         <input asp-for="Name" class="form-control" />
     </div>
     <button type="submit" class="btn btn-success">Зберегти</button>

@@ -1,0 +1,30 @@
+﻿@{
+    ViewData["Title"] = "Звіти";
+}
+
+<h2>@ViewData["Title"]</h2>
+
+<div class="list-group">
+    <ul class="list-group">
+        <li class="list-group-item">
+    <a asp-action="ContractsEndingSoon" class="list-group-item list-group-item-action">
+        📑 Контракти, що закінчуються скоро
+    </a>
+        </li>
+        <li class="list-group-item">
+    <a asp-action="EmployeesInDepartment" class="list-group-item list-group-item-action">
+        👥 Працівники по відділах
+    </a>
+        </li>
+        <li class="list-group-item">
+    <a asp-action="AverageSalaryInDepartment" class="list-group-item list-group-item-action">
+        💰 Середня зарплата по відділах
+    </a>
+        </li>
+
+    </ul>
+</div>
+<a asp-action="Index" asp-controller="Home" class="btn btn-secondary">Назад</a>
+
+
+

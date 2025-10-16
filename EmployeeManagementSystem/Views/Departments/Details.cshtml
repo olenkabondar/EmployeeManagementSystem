@@ -10,6 +10,7 @@
 
 <h3>Працівники</h3>
 
+<form asp-action="Details" method="post">
 @if (Model.Employees != null && Model.Employees.Any())
 {
     <table class="table table-striped">
@@ -36,3 +37,5 @@ else
 {
     <p>У цьому відділі ще немає працівників.</p>
 }
+<a asp-action="Index" class="btn btn-secondary">Назад</a>
+</form>
