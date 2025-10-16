@@ -3,6 +3,22 @@
   "WorkspaceRootPath": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|c:\\study\\finalproject\\employeemanagementsystem\\views\\departments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|solutionrelative:views\\departments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|c:\\study\\finalproject\\employeemanagementsystem\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|solutionrelative:controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|c:\\study\\finalproject\\employeemanagementsystem\\controllers\\positionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|solutionrelative:controllers\\positionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|c:\\study\\finalproject\\employeemanagementsystem\\views\\positions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|solutionrelative:views\\positions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|c:\\study\\finalproject\\employeemanagementsystem\\views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|solutionrelative:views\\employees\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -47,10 +63,6 @@
       "RelativeMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|c:\\study\\finalproject\\employeemanagementsystem\\controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|solutionrelative:controllers\\departmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|c:\\study\\finalproject\\employeemanagementsystem\\views\\departments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|solutionrelative:views\\departments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -91,10 +103,6 @@
       "RelativeMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|solutionrelative:controllers\\reportscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|c:\\study\\finalproject\\employeemanagementsystem\\controllers\\positionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|solutionrelative:controllers\\positionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|c:\\study\\finalproject\\employeemanagementsystem\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -111,10 +119,6 @@
       "RelativeMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|solutionrelative:views\\positions\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|c:\\study\\finalproject\\employeemanagementsystem\\views\\departments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|solutionrelative:views\\departments\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|c:\\study\\finalproject\\employeemanagementsystem\\views\\departments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|solutionrelative:views\\departments\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -125,10 +129,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|c:\\study\\finalproject\\employeemanagementsystem\\views\\positions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|solutionrelative:views\\positions\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|c:\\study\\finalproject\\employeemanagementsystem\\views\\positions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|solutionrelative:views\\positions\\delete.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{16D27987-F99B-4840-91EE-19A624B5F8B2}|EmployeeManagementSystem.csproj|c:\\study\\finalproject\\employeemanagementsystem\\views\\departments\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -158,7 +158,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 10,
           "Children": [
             {
               "$type": "Bookmark",
@@ -166,70 +166,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Delete.cshtml",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Employees\\Delete.cshtml",
               "RelativeDocumentMoniker": "Views\\Employees\\Delete.cshtml",
               "ToolTip": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Employees\\Delete.cshtml",
               "RelativeToolTip": "Views\\Employees\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-23T06:49:31.265Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Positions\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Positions\\Create.cshtml",
-              "ToolTip": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Positions\\Create.cshtml",
-              "RelativeToolTip": "Views\\Positions\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-30T15:29:38.828Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Departments\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\Departments\\Create.cshtml",
-              "ToolTip": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Departments\\Create.cshtml",
-              "RelativeToolTip": "Views\\Departments\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-26T06:12:13.698Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 1,
               "Title": "DepartmentsController.cs",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Controllers\\DepartmentsController.cs",
               "RelativeDocumentMoniker": "Controllers\\DepartmentsController.cs",
               "ToolTip": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Controllers\\DepartmentsController.cs",
               "RelativeToolTip": "Controllers\\DepartmentsController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAA1wAoAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAmwE0AAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-23T06:45:49.905Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
-              "ToolTip": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Controllers\\UserController.cs",
-              "RelativeToolTip": "Controllers\\UserController.cs",
-              "ViewState": "AgIAACkAAAAAAAAAAAAwwBsAAABAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-24T07:13:34.62Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -242,7 +205,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "EmployeesController.cs",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Controllers\\EmployeesController.cs",
               "RelativeDocumentMoniker": "Controllers\\EmployeesController.cs",
@@ -255,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Employees\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Employees\\Edit.cshtml",
@@ -268,7 +231,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Employees\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Employees\\Details.cshtml",
@@ -281,7 +244,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 6,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
@@ -294,7 +257,83 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 3,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Positions\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Positions\\Delete.cshtml",
+              "ToolTip": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Positions\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Positions\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T15:29:40.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PositionsController.cs",
+              "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Controllers\\PositionsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PositionsController.cs",
+              "ToolTip": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Controllers\\PositionsController.cs",
+              "RelativeToolTip": "Controllers\\PositionsController.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAuwFEAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-23T06:46:29.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Delete.cshtml",
+              "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Departments\\Delete.cshtml",
+              "RelativeDocumentMoniker": "Views\\Departments\\Delete.cshtml",
+              "ToolTip": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Departments\\Delete.cshtml",
+              "RelativeToolTip": "Views\\Departments\\Delete.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T06:12:16.365Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAwwBsAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-24T07:13:34.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Departments\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Departments\\Create.cshtml",
+              "ToolTip": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Departments\\Create.cshtml",
+              "RelativeToolTip": "Views\\Departments\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-26T06:12:13.698Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Positions\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Positions\\Create.cshtml",
+              "ToolTip": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Positions\\Create.cshtml",
+              "RelativeToolTip": "Views\\Positions\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-09-30T15:29:38.828Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
@@ -307,7 +346,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "Message.cs",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Models\\Message.cs",
               "RelativeDocumentMoniker": "Models\\Message.cs",
@@ -320,7 +359,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 10,
               "Title": "Employee.cs",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Models\\Employee.cs",
               "RelativeDocumentMoniker": "Models\\Employee.cs",
@@ -333,7 +372,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Employees\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Employees\\Index.cshtml",
@@ -346,7 +385,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Employees\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\Employees\\Create.cshtml",
@@ -358,7 +397,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 18,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Departments\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Departments\\Index.cshtml",
@@ -370,7 +409,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "AverageSalaryInDepartment.cshtml",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Reports\\AverageSalaryInDepartment.cshtml",
               "RelativeDocumentMoniker": "Views\\Reports\\AverageSalaryInDepartment.cshtml",
@@ -382,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "EmployeesInDepartment.cshtml",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Reports\\EmployeesInDepartment.cshtml",
               "RelativeDocumentMoniker": "Views\\Reports\\EmployeesInDepartment.cshtml",
@@ -394,19 +433,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "PositionsController.cs",
-              "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Controllers\\PositionsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\PositionsController.cs",
-              "ToolTip": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Controllers\\PositionsController.cs",
-              "RelativeToolTip": "Controllers\\PositionsController.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAAABUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-09-23T06:46:29.431Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "ReportsController.cs",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Controllers\\ReportsController.cs",
               "RelativeDocumentMoniker": "Controllers\\ReportsController.cs",
@@ -418,7 +445,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 23,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
@@ -430,7 +457,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 19,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Reports\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Reports\\Index.cshtml",
@@ -442,7 +469,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 21,
               "Title": "ContractsEndingSoon.cshtml",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Reports\\ContractsEndingSoon.cshtml",
               "RelativeDocumentMoniker": "Views\\Reports\\ContractsEndingSoon.cshtml",
@@ -454,7 +481,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -466,7 +493,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Positions\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Positions\\Index.cshtml",
@@ -478,7 +505,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Positions\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Positions\\Edit.cshtml",
@@ -490,7 +517,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "Details.cshtml",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Positions\\Details.cshtml",
               "RelativeDocumentMoniker": "Views\\Positions\\Details.cshtml",
@@ -502,19 +529,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Departments\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Departments\\Delete.cshtml",
-              "ToolTip": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Departments\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Departments\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-26T06:12:16.365Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Department.cs",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Models\\Department.cs",
               "RelativeDocumentMoniker": "Models\\Department.cs",
@@ -526,7 +541,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Departments\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Departments\\Edit.cshtml",
@@ -550,7 +565,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\User\\Register.cshtml",
               "RelativeDocumentMoniker": "Views\\User\\Register.cshtml",
@@ -559,18 +574,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-09-24T07:16:21.069Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "Delete.cshtml",
-              "DocumentMoniker": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Positions\\Delete.cshtml",
-              "RelativeDocumentMoniker": "Views\\Positions\\Delete.cshtml",
-              "ToolTip": "C:\\STUDY\\FinalProject\\EmployeeManagementSystem\\Views\\Positions\\Delete.cshtml",
-              "RelativeToolTip": "Views\\Positions\\Delete.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-09-30T15:29:40.389Z"
             },
             {
               "$type": "Document",
